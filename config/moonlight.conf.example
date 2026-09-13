@@ -1,0 +1,37 @@
+# ============================================================
+# Moonlight 客户端配置文件样例（已脱敏）
+# 实际文件位置: ~/.config/Moonlight Game Streaming Project/Moonlight.conf
+# 注意: 真实文件包含客户端私钥(certificate/key字段)，请勿公开！
+# 使用前请先配对: 启动moonlight后会显示4位PIN，在Sunshine网页端填入
+# ============================================================
+[General]
+# certificate/key 为配对时自动生成的客户端证书，此处省略
+# latestsupportedversion-v1=99.99.99.99
+
+[gcmapping]
+size=0
+
+[hosts]
+# 主机2 = KVM 虚拟机 Windows10 (Sunshine)
+2\customname=false
+2\hostname=windows10
+2\localaddress=192.168.122.20
+2\localport=47989
+2\manualaddress=192.168.122.20
+2\manualport=47989
+2\mac=@ByteArray(RT\0\xf8\x80\xab)
+2\uuid=C6F32736-4EFF-7225-850E-57E26FF242EA
+# 应用列表
+2\apps\1\name=Desktop
+2\apps\1\id=881448767
+2\apps\2\name=Steam Big Picture
+2\apps\2\id=1093255277
+2\apps\size=2
+size=2
+
+# 主机1 = 局域网物理机 (可选，另一台装Sunshine的电脑)
+1\customname=false
+1\hostname=DESKTOP-EXAMPLE
+1\localaddress=192.168.1.100
+1\localport=47989
+1\uuid=288C9F93-A753-6C06-0D19-DF5273C82872

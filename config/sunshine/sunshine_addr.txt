@@ -1,0 +1,1 @@
+csrf_allowed_origins = https://192.168.122.20:47990

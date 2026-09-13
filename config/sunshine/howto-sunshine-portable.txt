@@ -1,0 +1,22 @@
+📦 交付成果
+完整打包目录：
+Sunshine_Portable
+（321.7 MB，170 个文件）
+便携压缩包：
+Sunshine_Portable_Win10.zip
+（121.7 MB，方便拷贝到 Win11）
+📋 打包内容
+✅ Sunshine 主程序：sunshine.exe + sunshinesvc.exe + zlib1.dll
+✅ DirectX 支持：D3DCOMPILER_47.dll、d3d11.dll、dxgi.dll、dxcore.dll 等 6 个
+✅ 网络/流媒体：qwave.dll、TRAFFIC.dll、wlanapi.dll 等 5 个
+✅ NVIDIA 驱动全套：nvEncodeAPI64.dll、nvapi64.dll、nvcuda.dll、nvwgf2umx.dll 等 16 个
+✅ Web 管理界面：完整 assets/ 前端资源
+✅ 配置文件：保留您的所有设置
+✅ 隔离清单：sunshine.exe.manifest 强制本地 DLL 优先加载
+✅ 便捷脚本：启动、安装服务、卸载服务三个 .bat
+🚀 Win11 使用步骤
+解压 ZIP 到任意目录
+双击 启动Sunshine.bat 前台运行，或管理员运行 安装服务.bat 后台常驻
+💡 说明
+内核级 DLL（KERNEL32.dll、ntdll.dll 等）无法复制隔离，但 Win11 上必然存在且兼容，不影响使用
+所有非内核系统 DLL 和 NVIDIA 驱动 DLL 已全部打包，实现与 Win11 系统隔离

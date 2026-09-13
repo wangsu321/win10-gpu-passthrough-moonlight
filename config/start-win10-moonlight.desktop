@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=启动Win10-Moonlight
+Name[zh_CN]=startWin10-Moonlight
+Comment=启动KVM Win10虚拟机并自动连接Moonlight
+Exec=/usr/local/bin/start-win10-moonlight.sh
+Icon=computer
+Terminal=false
+Categories=Game;
+StartupNotify=false
